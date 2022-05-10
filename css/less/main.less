@@ -28,46 +28,10 @@
 			main styles
 \* ----------------------------------- */
 body {
-	color: var(--clr-base, #000);
-	background: var(--clr-bg-main);
+    color: var(--clr-base, #000);
+    background: var(--clr-bg-main);
     font-size: 18px;
     line-height: 24/18;
-    &::-webkit-scrollbar {
-        height: 4px;
-        width: 4px;
-        background-color: #f0f0f0;
-    }
-    &::-webkit-scrollbar-thumb {
-        background-color: #999;
-    }
-    &::-webkit-scrollbar-thumb:hover {
-        background-color: #999;
-    }
-    &::-webkit-scrollbar-button:vertical:start:decrement {
-        background-color: transparent;
-        width: 0;
-        height: 0;
-    }
-    &::-webkit-scrollbar-button:vertical:end:increment {
-        background-color: transparent;
-        width: 0;
-        height: 0;
-    }
-    &::-webkit-scrollbar-button:horizontal:start:decrement {
-        background-color: transparent;
-        width: 0;
-        height: 0;
-    }
-    &::-webkit-scrollbar-button:horizontal:end:increment {
-        background-color: transparent;
-        width: 0;
-        height: 0;
-    }
-}
-body.compensate-for-scrollbar {
-    .wrap {
-        padding-right: 4px;
-    }
 }
 p, ul, ol {
 	position: relative;
